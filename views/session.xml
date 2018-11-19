@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<odoo>
+
+    <data>
+        <record id="session_Form" model="ir.ui.view">
+
+            <field name="name">sesssion.form</field>
+
+            <field name="model">session</field>
+
+            <field name="type">form</field>
+
+
+            <field name="arch" type="xml">
+
+
+                <form string="session">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+
+                        <notebook>
+                            <page string="page 1">
+                                <group>
+                                    <field name="nb_participant"/>
+
+                                    <field name="date_debut"/>
+                                </group>
+                            </page>
+                            <page string="page 2">
+                                <group>
+                                    <field name="date_fin"/>
+
+
+                                    <field name="duree"/>
+                                </group>
+                            </page>
+                            <page string="page 3">
+                                <group>
+                                    <field name="state"/>
+
+                                    <field name="formationId"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+
+
+                </form>
+
+            </field>
+
+        </record>
+
+
+        <record id="sessionTree" model="ir.ui.view">
+
+            <field name="name">session.tree</field>
+
+            <field name="model">session</field>
+
+            <field name="type">tree</field>
+
+
+            <field name="arch" type="xml">
+
+
+                <tree string="session">
+
+
+                    <field name="name"/>
+
+                    <field name="nb_participant"/>
+
+                    <field name="date_debut"/>
+
+
+                    <field name="date_fin"/>
+
+                    <field name="duree"/>
+
+                    <field name="state"/>
+                </tree>
+
+            </field>
+
+        </record>
+
+
+        <record id="actionsession" model="ir.actions.act_window">
+
+            <field name="name">Session</field>
+
+            <field name="res_model">session</field>
+
+            <field name="view_type">form</field>
+
+            <field name="view_mode">tree,form</field>
+
+        </record>
+
+        <menuitem id="id_session" name="session" parent="id_gestion_formation_gauche" action="actionsession"/>
+
+        <!--menuitem id="id_candidat" parent="id_gestion_formation_gauche" name="candidat" action="actionCandidat"/><menuitem id="id_formateur" parent="id_gestion_formation_gauche" name="formateur" action="actionFormateur"/><menuitem id="id_salle" parent="id_gestion_formation_gauche" name="salle" action="actionSalle"/-->
+    </data>
+
+</odoo>
