@@ -4,7 +4,7 @@
 <odoo>
 
     <data>
-        <record id="session_Form" model="ir.ui.view">
+        <record id="sessionForm" model="ir.ui.view">
 
             <field name="name">sesssion.form</field>
 
@@ -26,23 +26,22 @@
                             <page string="page 1">
                                 <group>
                                     <field name="nb_participant"/>
+                                    <field name="duree"/>
+                                    <field name="state"/>
+                                </group>
+
+                                <group>
+                                    <field name="date_fin"/>
 
                                     <field name="date_debut"/>
+
                                 </group>
                             </page>
                             <page string="page 2">
                                 <group>
-                                    <field name="date_fin"/>
-
-
-                                    <field name="duree"/>
-                                </group>
-                            </page>
-                            <page string="page 3">
-                                <group>
-                                    <field name="state"/>
 
                                     <field name="formationId"/>
+                                    <field name="salle"/>
                                 </group>
                             </page>
                         </notebook>

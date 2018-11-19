@@ -21,6 +21,7 @@
                         <group>
                             <field name="name"/>
                             <field name="prix"/>
+                            <field name="sessionId"/>
                         </group>
                     </sheet>
                 </form>
@@ -47,6 +48,8 @@
                     <field name="name"/>
 
                     <field name="prix"/>
+
+                    <field name="sessionId"/>
 
                 </tree>
 

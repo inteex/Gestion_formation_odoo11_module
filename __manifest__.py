@@ -11,7 +11,7 @@
     'depends': ['project'],
     'installable': True,
     'application': True,
-    'data': ['views/formation.xml', 'views/session.xml'],
+    'data': ['views/formation.xml', 'views/session.xml', 'views/salle.xml'],
     'website' :'www.modulen1.com',
     'license' : 'GPL-2',
 }
