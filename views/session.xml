@@ -36,12 +36,13 @@
                                     <field name="date_debut"/>
 
                                 </group>
-                            </page>
-                            <page string="page 2">
+
                                 <group>
 
                                     <field name="formationId"/>
                                     <field name="salle"/>
+                                     <field name="formateur"/>
+                                     <field name="candidat"/>
                                 </group>
                             </page>
                         </notebook>
@@ -82,6 +83,9 @@
                     <field name="duree"/>
 
                     <field name="state"/>
+                    <field name="salle"/>
+                    <field name="formateur"/>
+                    <field name="candidat"/>
                 </tree>
 
             </field>

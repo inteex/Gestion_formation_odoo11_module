@@ -9,4 +9,4 @@ class Candidat(models.Model):
 
     name = fields.Char()
     num_ins = fields.Integer()
-    session = fields.Many2many('formation.session')
+    session = fields.Many2many('session')
