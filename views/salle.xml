@@ -22,7 +22,6 @@
                             <field name="name"/>
                             <field name="libre"/>
                             <field name="nb_place"/>
-                            <field name="session"/>
                         </group>
                     </sheet>
                 </form>
@@ -45,7 +44,6 @@
                 <tree string="session">
                     <field name="name"/>
                     <field name="libre"/>
-                    <field name="session"/>
                 </tree>
 
             </field>

@@ -17,17 +17,20 @@
 
 
                 <form string="session">
+                    <header>
+                    <field name="state" widget="statusbar" statusbar_visible="a,b"
+                    clickable="1"></field>
+                    </header>
                     <sheet>
                         <group>
                             <field name="name"/>
                         </group>
 
                         <notebook>
-                            <page string="page 1">
+                            <page string="modification">
                                 <group>
                                     <field name="nb_participant"/>
                                     <field name="duree"/>
-                                    <field name="state"/>
                                 </group>
 
                                 <group>
@@ -40,9 +43,9 @@
                                 <group>
 
                                     <field name="formationId"/>
-                                    <field name="salle"/>
-                                     <field name="formateur"/>
-                                     <field name="candidat"/>
+                                    <field name="salle_ids"/>
+                                     <field name="formateur_ids"/>
+                                     <field name="candidat_ids"/>
                                 </group>
                             </page>
                         </notebook>
@@ -83,9 +86,9 @@
                     <field name="duree"/>
 
                     <field name="state"/>
-                    <field name="salle"/>
-                    <field name="formateur"/>
-                    <field name="candidat"/>
+                    <field name="salle_ids"/>
+                    <field name="formateur_ids"/>
+                    <field name="candidat_ids"/>
                 </tree>
 
             </field>

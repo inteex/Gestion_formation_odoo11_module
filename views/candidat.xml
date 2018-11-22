@@ -25,9 +25,8 @@
                         <notebook>
                             <page string="page 1">
                                 <group>
-                                  <field name="name"/>
-                    <field name="num_ins"/>
-                    <field name="session"/>
+                                    <field name="name"/>
+                                    <field name="num_ins"/>
                                 </group>
                             </page>
                         </notebook>
@@ -56,7 +55,6 @@
                 <tree string="candidat">
                     <field name="name"/>
                     <field name="num_ins"/>
-                    <field name="session"/>
                 </tree>
 
             </field>

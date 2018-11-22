@@ -6,7 +6,7 @@
     <data>
         <record id="FormationForm" model="ir.ui.view">
 
-            <field name="name">formation.form</field>
+            <field name="name">formation.form.vue</field>
 
             <field name="model">formation.formation</field>
 
@@ -21,7 +21,7 @@
                         <group>
                             <field name="name"/>
                             <field name="prix"/>
-                            <field name="sessionId"/>
+                            <!--field name="sessionId"/-->
                         </group>
                     </sheet>
                 </form>
@@ -33,7 +33,7 @@
 
         <record id="FormationTree" model="ir.ui.view">
 
-            <field name="name">formation.tree</field>
+            <field name="name">foramtion.tree.vue</field>
 
             <field name="model">formation.formation</field>
 
@@ -49,24 +49,48 @@
 
                     <field name="prix"/>
 
-                    <field name="sessionId"/>
+                    <!--field name="sessionId"/-->
 
                 </tree>
 
             </field>
 
         </record>
+        <record id="Formation_kanban" model="ir.ui.view">
+            <field name="name">foramtion.kanban</field>
+            <field name="model">formation.formation</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <!--field name="sessionId"/-->
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_resource_details">
+                                <ul>
+                                    <li>
+                                        <field name="name"/>
+                                    </li>
+                                    <li>
+                                        <field name="prix"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
 
 
         <record id="actionFormation" model="ir.actions.act_window">
 
-            <field name="name">Formation</field>
+
+            <field name="name">Formation.Action</field>
 
             <field name="res_model">formation.formation</field>
 
             <field name="view_type">form</field>
 
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">tree,form,kanban</field>
 
         </record>
 

@@ -28,7 +28,6 @@
                                     <field name="name"/>
                                     <field name="matricule"/>
                                     <field name="diplome"/>
-                                    <field name="session"/>
                                 </group>
                             </page>
                         </notebook>
@@ -58,7 +57,6 @@
                     <field name="name"/>
                     <field name="matricule"/>
                     <field name="diplome"/>
-                    <field name="session"/>
                 </tree>
 
             </field>

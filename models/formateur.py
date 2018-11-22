@@ -10,4 +10,4 @@ class Formateur(models.Model):
 	name = fields.Char()
 	matricule = fields.Integer()
 	diplome = fields.Char()
-	session = fields.Many2many('session')
+	#session = fields.Many2many('session')

@@ -10,4 +10,4 @@ class Salle(models.Model):
     name = fields.Char()
     libre = fields.Boolean()
     nb_place = fields.Integer()
-    session = fields.Many2many('session')
+    #session = fields.Many2many('session')
