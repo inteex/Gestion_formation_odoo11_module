@@ -13,10 +13,12 @@
     'application': True,
     'data': [
              'views/formation.xml',
+             'wizard/wizard_attestation.xml',
              'views/session.xml',
              'views/salle.xml',
              'views/formateur.xml',
-             'views/candidat.xml'
+             'views/candidat.xml',
+             'views/attestation.xml'
              ],
     'website' :'www.modulen1.com',
     'license' : 'GPL-2',

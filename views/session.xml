@@ -20,6 +20,7 @@
                     <header>
                     <field name="state" widget="statusbar" statusbar_visible="a,b"
                     clickable="1"></field>
+                                <button string="creer atestation" type="action" name="%(action_wattestation)d"/>
                     </header>
                     <sheet>
                         <group>
@@ -107,6 +108,7 @@
             <field name="view_mode">tree,form</field>
 
         </record>
+
 
         <menuitem id="id_session" name="session" parent="id_gestion_formation_gauche" action="actionsession"/>
 

@@ -5,3 +5,4 @@ from . import formateur
 from . import candidat
 from . import salle
 from . import session
+from . import attestation
