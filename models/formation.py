@@ -8,4 +8,5 @@ class formation(models.Model):
 
 	name = fields.Char()
 	prix = fields.Float()
+	categorie = fields.Char()
 	#sessionId = fields.One2many('session' , 'formationId' , "refernece des session")

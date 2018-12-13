@@ -44,6 +44,7 @@
                                 <group>
 
                                     <field name="formationId"/>
+                                    <field name="categorie"/>
                                     <field name="salle_ids"/>
                                      <field name="formateur_ids"/>
                                      <field name="candidat_ids"/>
