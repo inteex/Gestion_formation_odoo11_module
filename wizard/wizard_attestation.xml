@@ -19,8 +19,11 @@
                     <group>
                         <field name="date"/>
                     </group>
-                    <group>
+                     <group>
                         <field name="description"/>
+                    </group>
+                    <group>
+                        <field name="candidat_ids"/>
                     </group>
                 <footer>
                     <button name="action_done" string="Confirmer" type="object" class="oe_highlight"/>
