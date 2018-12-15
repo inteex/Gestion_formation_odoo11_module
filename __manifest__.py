@@ -18,6 +18,7 @@
              'views/salle.xml',
              'views/formateur.xml',
              'views/candidat.xml',
+             'report/attestation_report.xml',
              'views/attestation.xml'
              ],
     'website' :'www.modulen1.com',

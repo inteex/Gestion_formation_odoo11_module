@@ -6,6 +6,9 @@ from odoo import fields, models
 class Formateur(models.Model):
 	_name="formation.formateur"
 	_description="formateur"
+	_sql_constraints = [
+		('matricule_unique', 'unique(matricule)', 'numero de matricule existe  deja!')
+	]
 
 	name = fields.Char()
 	matricule = fields.Integer()

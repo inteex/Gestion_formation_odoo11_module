@@ -46,11 +46,3 @@ class Session(models.Model):
         date_fin = datetime.strptime(self.date_fin, "%Y-%m-%d")
         if date_debut > date_fin:
             raise ValidationError("erreur date fin superieur")
-
-
-
-    def wizard(self):
-        if self.state == 'b':
-            self.state = 'a'
-        else:
-            self.state = 'b'

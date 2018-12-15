@@ -18,9 +18,10 @@
 
                 <form string="session">
                     <header>
-                    <field name="state" widget="statusbar" statusbar_visible="a,b"
-                    clickable="1"></field>
-                                <button string="creer atestation" type="action" name="%(action_wattestation)d"/>
+                        <field name="state" widget="statusbar" statusbar_visible="a,b"
+                               clickable="1">
+                        </field>
+                        <button string="creer atestation" type="action" name="%(action_wattestation)d"/>
                     </header>
                     <sheet>
                         <group>
@@ -46,8 +47,8 @@
                                     <field name="formationId"/>
                                     <field name="categorie"/>
                                     <field name="salle_ids"/>
-                                     <field name="formateur_ids"/>
-                                     <field name="candidat_ids"/>
+                                    <field name="formateur_ids"/>
+                                    <field name="candidat_ids"/>
                                 </group>
                             </page>
                         </notebook>
