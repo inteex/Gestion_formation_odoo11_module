@@ -18,15 +18,15 @@
 
                 <form string="candidat">
                     <sheet>
-                        <group>
-                            <field name="name"/>
-                        </group>
+
 
                         <notebook>
                             <page string="page 1">
                                 <group>
-                                    <field name="name"/>
                                     <field name="num_ins"/>
+                                </group>
+                                <group>
+                                    <field name="name"/>
                                 </group>
                             </page>
                         </notebook>
