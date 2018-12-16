@@ -12,6 +12,8 @@
     'installable': True,
     'application': True,
     'data': [
+             'security/ir.model.access.csv',
+             'security/users.xml',
              'views/formation.xml',
              'wizard/wizard_attestation.xml',
              'views/session.xml',
