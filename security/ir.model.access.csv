@@ -1,2 +1,10 @@
 id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
-access_candidat_sec,candidat_secretaire,model_formation_candidat,groupe_secretaire,1,1,1,1
+
+access_candidat_sec,candidat_secretaire,model_formation_candidat,groupe_secretaire,1,0,0,0
+access_candidat_ger,candidat_gerant,model_formation_candidat,groupe_gerant,1,1,0,0
+
+access_session_sec,session_secretaire,model_session,groupe_secretaire,1,0,0,0
+access_session_ger,session_gerant,model_session,groupe_gerant,1,1,0,0
+
+access_attestation_sec,attestation_secretaire,model_formation_attestation,groupe_secretaire,1,0,0,0
+access_attestation_ger,attestation_gerant,model_formation_attestation,groupe_gerant,1,1,0,0

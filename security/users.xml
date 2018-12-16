@@ -4,10 +4,10 @@
         <record id="groupe_secretaire" model="res.groups">
             <field name="name">Secretaire</field>
         </record>
-        <!--record id="groupe_gerant" model="res.groupe">
-           <field name="name">Gerant</field>
-           <field name="category_id"
-           ref="GestionFormation.centre_formation_categorie2"></field>
-       </record-->
+
+        <record id="groupe_gerant" model="res.groups">
+            <field name="name">Gerant</field>
+        </record>
+
     </data>
 </odoo>
