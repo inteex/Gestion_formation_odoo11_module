@@ -21,7 +21,9 @@
                         <field name="state" widget="statusbar" statusbar_visible="a,b"
                                clickable="1">
                         </field>
-                        <button string="creer atestation" type="action" name="%(action_wattestation)d"/>
+                        <button string="creer atestation" type="action" name="%(action_wattestation)d"
+                        groups="GestionFormation.groupe_gerant,base.group_system"
+                        />
                     </header>
                     <sheet>
                         <group>

@@ -31,21 +31,20 @@
             <t t-call="web.html_container">
                 <t t-foreach="docs" t-as="doc">
                     <t t-call="web.external_layout">
-                        <div>
+                        <div style="border:solid;">
                             <h1 align="center" style="padding-top:10%">Attestation</h1>
                             <hr/>
 
-                            <div style="
-    padding-top:5%;
-    padding-bottom:5%;
-    font-size:23px;
-    padding-left:1%;
-    border-right: dotted;
-    border-left: dotted;
-    border-radius: 10%;
-    border-color:black;
-    width:80%;
-    margin-left:10%;">
+                            <div style="padding-top:5%;
+                                        padding-bottom:5%;
+                                        font-size:23px;
+                                        padding-left:1%;
+                                        border: dotted;
+
+                                        border-radius: 1%;
+
+                                        width:80%;
+                                        margin-left:10%;">
                                 <div style="padding-left:2%;">
                                     <p>
                                         <b>Candidat :</b>
@@ -61,9 +60,15 @@
                                     </p>
                                 </div>
                                 <hr/>
-                                <h2>L'HONNEUR DZ TA TA TA TA TA TA A TA TA TA TA TA T A TA TA TA TATATATATATATATAA
-                                    CyRCRCyRCyRCyRCyRCyRCyCRCyRCyR
-                                </h2>
+                                <p>
+                                    <h2>Suit a votre Serieux et conssistance on vous honore .Suit a votre Serieux et
+                                        conssistance on vous honore .
+                                        Suit a votre Serieux et conssistance on vous honore .Suit a votre Serieux et
+                                        conssistance on vous honore .
+                                        Suit a votre Serieux et conssistance on vous honore .
+                                    </h2>
+                                </p>
+
                                 <hr/>
                             </div>
                         </div>
