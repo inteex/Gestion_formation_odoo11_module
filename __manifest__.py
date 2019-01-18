@@ -8,12 +8,15 @@
     'author': 'reda mekhezzem',
     'category': 'premier module',
     'description': "Ceci est mon prmier module du tp n_3",
-    'depends': ['project'],
+    'depends': [
+                'project'
+                #'account_invoicing'
+                ],
     'installable': True,
     'application': True,
     'data': [
-             'security/ir.model.access.csv',
              'security/users.xml',
+             'security/ir.model.access.csv',
              'views/formation.xml',
              'wizard/wizard_attestation.xml',
              'views/session.xml',
@@ -21,6 +24,7 @@
              'views/formateur.xml',
              'views/candidat.xml',
              'report/attestation_report.xml',
+             #'views/facturation.xml',
              'views/attestation.xml'
              ],
     'website' :'www.modulen1.com',
